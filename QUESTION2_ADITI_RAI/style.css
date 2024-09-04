@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+#course-list {
+	list-style: decimal;
+	padding: 0;
+	margin: 0;
+}
+
+#course-list li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#course-list li:last-child {
+	border-bottom: none;
+}
+
+.course-code {
+	font-weight: bold;
+}
+
+.course-name {
+	color: #337ab7;
+}
+
+.credits {
+	font-size: 14px;
+	color: #666;
+}
